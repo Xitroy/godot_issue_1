@@ -24,4 +24,7 @@ func _ready() -> void:
 
 	actor.task = null
 	print(actor.game_attributes.task)
-	print(actor.task)
+	print(actor.task) 
+	# ERROR IS HERE ^ 
+	# Invalid access to property or key 'task' on a base object of type 'Node2D (Actor)'.
+	# Obviously, it should not work like this
